@@ -465,7 +465,7 @@
 			 * @return {Boolean}
 			 */
 			isFile: function (file){
-				return	html5 && file && (file instanceof File);
+				return	html5 && file && (file instanceof Blob);
 			},
 
 
